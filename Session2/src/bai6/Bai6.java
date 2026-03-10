@@ -6,7 +6,7 @@ public class Bai6 {
     static void main(String[] args) {
         User user = new User("loc");
 
-        // Method Reference tới static method
+
         UserProcessor processor = UserUtil::convertToUpperCase;
 
         String result = processor.process(user);
